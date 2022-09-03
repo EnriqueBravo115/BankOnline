@@ -1,12 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankProject.Core", "BankProject.Core\BankProject.Core.csproj", "{DEB423C2-CA9D-47EE-B701-758CF5E6A3E9}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankProject.Core", "BankProject.Core\BankProject.Core.csproj", "{DEB423C2-CA9D-47EE-B701-758CF5E6A3E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankProject.Application", "BankProject.Application\BankProject.Application.csproj", "{D1516EBD-3794-46B4-BF41-8A6C5ACB1408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankProject.Application", "BankProject.Application\BankProject.Application.csproj", "{D1516EBD-3794-46B4-BF41-8A6C5ACB1408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankProject.Infrastructure", "BankProject.Infrastructure\BankProject.Infrastructure.csproj", "{50F5F3E1-DA95-4BDC-B0A4-7B480AD9795B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankProject.Infrastructure", "BankProject.Infrastructure\BankProject.Infrastructure.csproj", "{50F5F3E1-DA95-4BDC-B0A4-7B480AD9795B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankProject.Api", "BankProject.Api\BankProject.Api.csproj", "{1F384DEC-A352-43A5-9332-4EEA1CC68393}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankProject.Api", "BankProject.Api\BankProject.Api.csproj", "{1F384DEC-A352-43A5-9332-4EEA1CC68393}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C745832-1872-4AEB-9960-798B211922AC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +38,11 @@ Global
 		{1F384DEC-A352-43A5-9332-4EEA1CC68393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F384DEC-A352-43A5-9332-4EEA1CC68393}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F384DEC-A352-43A5-9332-4EEA1CC68393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5022F3EF-6FC3-4148-A8EB-BB18864FC40A}
 	EndGlobalSection
 EndGlobal

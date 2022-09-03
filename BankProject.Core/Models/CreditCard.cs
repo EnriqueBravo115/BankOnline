@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BankProject.Core.Entities
+namespace BankProject.Core.Models
 {
     class CreditCard
     {

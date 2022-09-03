@@ -5,17 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BankProject.Core.Entities
+namespace BankProject.Core.Models
 {
     class Account
     {
-        private long id { get; set; }
-        private long customerId { get; set; }
-        private string? description { get; set; }
-        private decimal currentBalance { get; set; }
-        private AccountCurrencyType currencyType { get; set; }
-        private AccountActivityType accountType { get; set; }
-        private DateTime transactionDate { get; set; }
+        private long Id { get; set; }
+        private long CustomerId { get; set; }
+        private string? Description { get; set; }
+        private decimal CurrentBalance { get; set; }
+        private AccountCurrencyType CurrencyType { get; set; }
+        private AccountActivityType AccountType { get; set; }
+        private DateTime TransactionDate { get; set; }
         
     }
 }

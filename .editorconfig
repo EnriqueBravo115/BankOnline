@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CA2252: Esta API requiere la participación en las características en versión preliminar.
+dotnet_diagnostic.CA2252.severity = none
