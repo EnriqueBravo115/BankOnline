@@ -8,5 +8,9 @@ namespace BankProject.Core.Models
 {
     class Loan
     {
+        private long id { get; set; }
+        private long customerId { get; set; }
+        private DateTime dueDate { get; set; }
+        private long principalLoanAmount { get; set; }
     }
 }
